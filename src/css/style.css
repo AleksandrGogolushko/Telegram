@@ -111,7 +111,7 @@ header {
   display: inline-block;
   width: 17px;
   height: 17px;
-  background-image: url(/src/image/IconsetW.png);
+  background-image: url(../image/IconsetW.png);
   background-repeat: no-repeat;
   background-position: -12px -1037px;
   vertical-align: middle;
@@ -182,7 +182,7 @@ main {
   position: relative;
   height: 20px;
   width: 20px;
-  background-image: url(/src/image/IconsetW.png);
+  background-image: url(../image/IconsetW.png);
   background-position: -7px -189px;
 }
 
@@ -191,7 +191,7 @@ main {
   position: relative;
   height: 20px;
   width: 20px;
-  background-image: url(/src/image/IconsetW.png);
+  background-image: url(../image/IconsetW.png);
   background-position: -7px -189px;
 }
 
@@ -227,7 +227,7 @@ main {
   width: 45px;
   height: 45px;
   border-radius: 100%;
-  background-image: url(/src/image/save.png);
+  background-image: url(../image/save.png);
   background-position: center;
   background-size: cover;
   position: absolute;
@@ -237,7 +237,7 @@ main {
 }
 
 .saved-message {
-  background-image: url(/src/image/save.png);
+  background-image: url(../image/save.png);
 }
 .chat-discription {
   width: 76%;
@@ -288,7 +288,7 @@ main {
   top: 25%;
   width: 14px;
   height: 14px;
-  background-image: url(/src/image/general.png);
+  background-image: url(../image/general.png);
   background-repeat: no-repeat;
   background-position: -13px -916px;
 }
@@ -324,7 +324,7 @@ main {
 .food,
 .film-review,
 .hf {
-  background-image: url(/src/image/cover.png);
+  background-image: url(../image/cover.png);
   background-repeat: no-repeat;
 }
 .person {
@@ -486,7 +486,7 @@ main {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  background-image: url(/src/image/IconsetW.png);
+  background-image: url(../image/IconsetW.png);
   background-position: -2px -475px;
   opacity: 0;
   cursor: pointer;
@@ -614,7 +614,7 @@ textarea {
   right: 0px;
   width: 12%;
   height: 45%;
-  background-image: url(/src/image/IconsetW.png);
+  background-image: url(../image/IconsetW.png);
   background-position: 1px 0px;
   cursor: pointer;
 }
@@ -682,7 +682,7 @@ textarea:focus + .decoration {
 }
 .media,
 .file {
-  background-image: url(/src/image/general.png);
+  background-image: url(../image/general.png);
   opacity: 0.7;
 }
 .media {
@@ -692,7 +692,7 @@ textarea:focus + .decoration {
   background-position: -6px -445px;
 }
 .record {
-  background-image: url(/src/image/IconsetW.png);
+  background-image: url(../image/IconsetW.png);
   background-position: -6px -277px;
   opacity: 0.7;
 }
@@ -723,7 +723,7 @@ textarea:focus + .decoration {
   height: 20px;
   vertical-align: middle;
   display: inline-block;
-  background-image: url(/src/image/emojisprite_0.png);
+  background-image: url(../image/emojisprite_0.png);
   background-size: 540px 140px;
 }
 
