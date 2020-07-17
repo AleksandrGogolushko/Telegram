@@ -3,12 +3,14 @@
   padding: 0;
   margin: 0;
 }
+
 body {
   background-color: #e7ebf0;
   width: 100vw;
   height: 100vh;
   overflow: hidden;
 }
+
 header {
   width: 1010px;
   height: 50px;
@@ -24,6 +26,7 @@ header {
   height: 100%;
   padding: 14px 20px 15px 22px;
 }
+
 .left-side:hover,
 .serch:hover,
 .dot-btn:hover,
@@ -31,14 +34,17 @@ header {
   background-color: #497799;
   cursor: pointer;
 }
+
 .left-side:hover .first {
   transform: translateY(-1px);
   transition: all 0.3s;
 }
+
 .left-side:hover .last {
   transform: translateY(1px);
   transition: all 0.3s;
 }
+
 .hamburger-btn {
   width: max-content;
   height: max-content;
@@ -64,6 +70,7 @@ header {
   transition: all 0.3s;
   display: block;
 }
+
 .right-side {
   width: 69%;
   height: 100%;
@@ -71,52 +78,60 @@ header {
   cursor: pointer;
   position: relative;
 }
+
 .name-section {
   display: inline-block;
   padding: 15px 19px 15px;
   vertical-align: top;
   width: 85%;
 }
+
 .name-section p {
   display: inline-block;
   font: 13px/18px Tahoma, sans-serif, Arial, Helvetica;
   color: white;
   opacity: 0.5;
 }
+
 .name-section .title-group {
   font-weight: bolder;
   opacity: 1;
   margin-right: 2px;
 }
+
 .name-section:hover .count-members,
 .name-section:hover .members-online {
   opacity: 1;
 }
 
-.serch-wraper {
+.serch-settings {
   width: 15%;
   height: 100%;
   float: right;
 }
+
 .serch,
 .dot-btn {
   float: right;
   width: 50%;
   height: 100%;
 }
-.serch-wraper .serch {
+
+.serch-settings .serch {
   padding: 15px 16px 14px 20px;
 }
+
 .icon-serch {
   display: inline-block;
   width: 17px;
   height: 17px;
-  background-image: url(/src/image/IconsetW.png);
+  background-image: url(../image/IconsetW.png);
   background-repeat: no-repeat;
   background-position: -12px -1037px;
   vertical-align: middle;
   opacity: 0.9;
 }
+
 .dot-btn {
   padding: 16px 25px;
 }
@@ -182,7 +197,7 @@ main {
   position: relative;
   height: 20px;
   width: 20px;
-  background-image: url(/src/image/IconsetW.png);
+  background-image: url(../image/IconsetW.png);
   background-position: -7px -189px;
 }
 
@@ -191,7 +206,7 @@ main {
   position: relative;
   height: 20px;
   width: 20px;
-  background-image: url(/src/image/IconsetW.png);
+  background-image: url(../image/IconsetW.png);
   background-position: -7px -189px;
 }
 
@@ -227,7 +242,7 @@ main {
   width: 45px;
   height: 45px;
   border-radius: 100%;
-  background-image: url(/src/image/save.png);
+  background-image: url(../image/save.png);
   background-position: center;
   background-size: cover;
   position: absolute;
@@ -237,13 +252,15 @@ main {
 }
 
 .saved-message {
-  background-image: url(/src/image/save.png);
+  background-image: url(../image/save.png);
 }
+
 .chat-discription {
   width: 76%;
   height: 100%;
   float: right;
 }
+
 .name-time,
 .message-pin {
   width: 100%;
@@ -267,15 +284,18 @@ main {
   right: 6%;
   color: rgb(173, 173, 173);
 }
+
 .messages {
   font: 13px/20px Tahoma, sans-serif, Arial, Helvetica;
   position: absolute;
   top: 10%;
   left: 2%;
 }
+
 .messages span {
-  color: #3A6D99;
+  color: #3a6d99;
 }
+
 .pin,
 .unread,
 .you-message {
@@ -288,10 +308,11 @@ main {
   top: 25%;
   width: 14px;
   height: 14px;
-  background-image: url(/src/image/general.png);
+  background-image: url(../image/general.png);
   background-repeat: no-repeat;
   background-position: -13px -916px;
 }
+
 .unread {
   top: 5%;
   width: 20px;
@@ -324,9 +345,10 @@ main {
 .food,
 .film-review,
 .hf {
-  background-image: url(/src/image/cover.png);
+  background-image: url(../image/cover.png);
   background-repeat: no-repeat;
 }
+
 .person {
   background-position: -1px -574px;
 }
@@ -341,27 +363,35 @@ main {
 .club {
   background-position: 0px -90px;
 }
+
 .goToB {
   background-position: 0px -137px;
 }
+
 .work {
   background-position: 0px -187px;
 }
+
 .onliner {
   background-position: 0px -233px;
 }
+
 .osf {
   background-position: 0px -280px;
 }
+
 .kimovil {
   background-position: 0px -328px;
 }
+
 .food {
   background-position: 0px -375px;
 }
+
 .film-review {
   background-position: 0px -424px;
 }
+
 .hf {
   background-position: 0px -474px;
 }
@@ -370,6 +400,7 @@ main {
   width: 100%;
   height: calc(90vh - 140px);
 }
+
 .create-group {
   width: 60%;
   height: 420px;
@@ -380,20 +411,25 @@ main {
   color: #999999;
   position: relative;
 }
+
 .create-group .user {
   font-weight: bold;
   color: rgb(177, 155, 104);
   cursor: pointer;
 }
+
 .user:hover {
   text-decoration: underline;
 }
+
 .create-group p:first-child {
   padding-top: 50px;
 }
+
 .create-group p {
   padding: 10px;
 }
+
 .create-group img {
   position: absolute;
   top: 64%;
@@ -402,6 +438,7 @@ main {
   width: 220px;
   cursor: pointer;
 }
+
 .name-group {
   font-weight: bold;
 }
@@ -412,13 +449,16 @@ main {
   height: 70px;
   margin-bottom: 12px;
 }
+
 .messages-group-with-link {
   height: 140px;
 }
+
 .messages-group-with-link .check-messages .check {
   height: 25%;
   top: 22%;
 }
+
 .messages-group-with-link .author-foto img {
   top: 24%;
 }
@@ -426,15 +466,18 @@ main {
 .messages-group-with-link .author-data {
   height: 23%;
 }
+
 .messages-group-with-link .messages-text {
   height: 77%;
 }
+
 .messages-text a {
   text-decoration: none;
   font: 13px/23px Tahoma, sans-serif, Arial, Helvetica;
   padding: 2px 6px;
   color: #7d9fbc;
 }
+
 .link {
   width: 61%;
   height: 73%;
@@ -447,21 +490,25 @@ main {
 .link-first-part {
   color: rgb(168, 168, 168);
 }
+
 .link-second-part {
   color: #537fa6;
   font-weight: bold;
 }
+
 .check-messages {
   width: 8%;
   height: 100%;
   float: left;
 }
+
 .author-foto {
   width: 11%;
   height: 100%;
   display: inline-block;
   position: relative;
 }
+
 .author-foto img {
   border-radius: 50%;
   width: 67%;
@@ -471,14 +518,17 @@ main {
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
 .messages-wraper {
   width: 81%;
   height: 100%;
   float: right;
 }
+
 .check-messages {
   position: relative;
 }
+
 .check-messages .check {
   width: 80%;
   height: 50%;
@@ -486,25 +536,29 @@ main {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  background-image: url(/src/image/IconsetW.png);
+  background-image: url(../image/IconsetW.png);
   background-position: -2px -475px;
   opacity: 0;
   cursor: pointer;
 }
+
 .messages-group:hover .check,
 .messages-group-with-link:hover .check {
   opacity: 1;
 }
+
 .author-data,
 .messages-text {
   width: 100%;
   height: 50%;
   position: relative;
 }
+
 .messages-text .text {
   font: 12px/20px Tahoma, sans-serif, Arial, Helvetica;
   padding: 2px 6px;
 }
+
 .author-group {
   font: 12px/20px Tahoma, sans-serif, Arial, Helvetica;
   font-weight: bold;
@@ -513,6 +567,7 @@ main {
   bottom: 2%;
   left: 4px;
 }
+
 .author-group:hover,
 .messages-group-with-link a:hover,
 .link-second-part:hover {
@@ -527,6 +582,10 @@ main {
   right: 11.4%;
   font: 11px/20px Tahoma, sans-serif, Arial, Helvetica;
 }
+.data-group:hover{
+  text-decoration: underline;
+}
+
 .user-panel {
   width: 100%;
   height: 150px;
@@ -542,20 +601,25 @@ main {
   margin-right: auto;
   background-color: white;
 }
+
 .conversation-body .main-elements {
   width: 90%;
   overflow-y: scroll;
+  cursor: pointer;
 }
+
 .conversation-body .main-elements,
 .chat-wraper {
   -ms-overflow-style: none;
   scrollbar-width: none;
 }
+
 .conversation-body .main-elements::-webkit-scrollbar,
 .chat-wraper::-webkit-scrollbar {
   width: 0px;
   background: transparent;
 }
+
 .main-panel,
 .emoji-send {
   width: 100%;
@@ -567,10 +631,12 @@ main {
   width: 15%;
   height: 100%;
 }
+
 .user-foto {
   float: left;
   position: relative;
 }
+
 .user-foto img,
 .group-cover img {
   width: 62%;
@@ -582,6 +648,7 @@ main {
   transform: translate(-50%, -50%);
   cursor: pointer;
 }
+
 .group-cover {
   float: right;
   position: relative;
@@ -614,7 +681,7 @@ textarea {
   right: 0px;
   width: 12%;
   height: 45%;
-  background-image: url(/src/image/IconsetW.png);
+  background-image: url(../image/IconsetW.png);
   background-position: 1px 0px;
   cursor: pointer;
 }
@@ -630,9 +697,11 @@ textarea {
   position: absolute;
   bottom: 0;
 }
+
 textarea:focus + .decoration {
   background-color: #6490b1;
 }
+
 .container {
   width: 69%;
   height: 100%;
@@ -641,6 +710,7 @@ textarea:focus + .decoration {
   margin-right: auto;
   position: relative;
 }
+
 .elemets-wraper {
   width: 100%;
   height: 50%;
@@ -668,31 +738,38 @@ textarea:focus + .decoration {
   width: 30%;
   height: 100%;
 }
+
 .send-type span {
   display: inline-block;
   width: 28px;
   height: 36px;
   cursor: pointer;
 }
+
 .send-type span:hover {
   opacity: 1;
 }
+
 .send-type .media {
   margin: 0 10px;
 }
+
 .media,
 .file {
-  background-image: url(/src/image/general.png);
+  background-image: url(../image/general.png);
   opacity: 0.7;
 }
+
 .media {
   background-position: -6px -390px;
 }
+
 .file {
   background-position: -6px -445px;
 }
+
 .record {
-  background-image: url(/src/image/IconsetW.png);
+  background-image: url(../image/IconsetW.png);
   background-position: -6px -277px;
   opacity: 0.7;
 }
@@ -712,39 +789,48 @@ textarea:focus + .decoration {
   margin-right: 5px;
   padding: 5px;
 }
+
 .emoji-panel span:first-child {
   margin-left: 10px;
 }
+
 .emoji:hover {
   background-color: rgb(237, 242, 245);
 }
+
 .emoji {
   width: 20px;
   height: 20px;
   vertical-align: middle;
   display: inline-block;
-  background-image: url(/src/image/emojisprite_0.png);
+  background-image: url(../image/emojisprite_0.png);
   background-size: 540px 140px;
 }
 
 .first {
   background-position: -300px -0px;
 }
+
 .second {
   background-position: -480px -60px;
 }
+
 .third {
   background-position: -440px -0px;
 }
+
 .fourth {
   background-position: -140px -0px;
 }
+
 .fifth {
   background-position: -200px -120px;
 }
+
 .sixth {
   background-position: -120px -0px;
 }
+
 .seventh {
   background-position: -60px -0px;
 }
@@ -753,36 +839,46 @@ textarea:focus + .decoration {
   header {
     width: 100vw;
   }
+
   .name-section {
     width: 81%;
   }
-  .serch-wraper {
+
+  .serch-settings {
     width: 19%;
   }
+
   main {
     width: 100vw;
     height: 100vh;
   }
+
   .user-panel {
     bottom: 42px;
   }
+
   .main-elements {
     width: 100% !important;
   }
+
   .emoji-panel span:first-child {
     margin-left: 25px;
   }
+
   .seventh {
     display: none !important;
   }
+
   .send-type {
     width: 31%;
   }
+
   .messages {
     width: 74%;
     white-space: nowrap;
     overflow-x: hidden;
   }
+
   .author {
     width: 62%;
     overflow-x: hidden;
