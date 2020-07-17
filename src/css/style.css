@@ -334,7 +334,7 @@ main {
 }
 
 .person,
-.tyt-by,
+.tut-by,
 .disgusting,
 .club,
 .goToB,
@@ -353,7 +353,7 @@ main {
   background-position: -1px -574px;
 }
 
-.tyt-by {
+.tut-by {
   background-position: 0px 4px;
 }
 
@@ -414,7 +414,7 @@ main {
 
 .create-group .user {
   font-weight: bold;
-  color: rgb(177, 155, 104);
+  color: #b19b68;
   cursor: pointer;
 }
 
