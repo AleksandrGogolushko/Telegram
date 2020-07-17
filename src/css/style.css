@@ -1,4 +1,5 @@
 * {
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   padding: 0;
   margin: 0;
@@ -17,9 +18,10 @@ header {
   background-color: rgb(86, 130, 163);
   position: absolute;
   left: 50%;
+  -webkit-transform: translate(-50%, 0%);
+  -ms-transform: translate(-50%, 0%);
   transform: translate(-50%, 0%);
 }
-
 .left-side {
   float: left;
   width: 31%;
@@ -36,23 +38,32 @@ header {
 }
 
 .left-side:hover .first {
+  -webkit-transform: translateY(-1px);
+  -ms-transform: translateY(-1px);
   transform: translateY(-1px);
+  -webkit-transition: all 0.3s;
   transition: all 0.3s;
 }
 
 .left-side:hover .last {
+  -webkit-transform: translateY(1px);
+  -ms-transform: translateY(1px);
   transform: translateY(1px);
+  -webkit-transition: all 0.3s;
   transition: all 0.3s;
 }
 
 .hamburger-btn {
+  width: -webkit-max-content;
+  width: -moz-max-content;
   width: max-content;
+  height: -webkit-max-content;
+  height: -moz-max-content;
   height: max-content;
   display: inline-block;
   vertical-align: top;
   margin-top: 2px;
 }
-
 .logo {
   width: 62px;
   height: 14px;
@@ -61,12 +72,12 @@ header {
   vertical-align: top;
   margin-top: 3px;
 }
-
 .line {
   width: 18px;
   height: 2px;
   margin-bottom: 4px;
   background-color: white;
+  -webkit-transition: all 0.3s;
   transition: all 0.3s;
   display: block;
 }
@@ -103,6 +114,8 @@ header {
 .name-section:hover .members-online {
   opacity: 1;
 }
+
+
 
 .serch-settings {
   width: 15%;
@@ -141,17 +154,17 @@ header {
   border-radius: 50%;
   margin-bottom: 2px;
 }
-
 main {
   width: 1010px;
   height: 91.5vh;
   position: absolute;
   top: 50px;
   left: 50%;
+  -webkit-transform: translate(-50.1%, 0%);
+  -ms-transform: translate(-50.1%, 0%);
   transform: translate(-50.1%, 0%);
   background-color: white;
 }
-
 .all-chat {
   width: 31%;
   height: 100%;
@@ -159,21 +172,18 @@ main {
   overflow: hidden;
   border-right: 2px solid #e0e0e0;
 }
-
 .conversation {
   width: 69%;
   height: 100%;
   float: right;
   position: relative;
 }
-
 .serch-panel {
   width: 100%;
   height: 55px;
   padding: 14px 14px;
   background-color: white;
 }
-
 .serch-input {
   font-size: 12px;
   line-height: normal;
@@ -187,11 +197,9 @@ main {
   background-position: -7px -207px;
   width: 100%;
 }
-
 .serch-input:focus {
   outline: none;
 }
-
 .serch-input::-webkit-search-cancel-button {
   -webkit-appearance: none;
   position: relative;
@@ -200,7 +208,6 @@ main {
   background-image: url(../image/IconsetW.png);
   background-position: -7px -189px;
 }
-
 .serch-input::-ms-clear {
   -webkit-appearance: none;
   position: relative;
@@ -209,13 +216,11 @@ main {
   background-image: url(../image/IconsetW.png);
   background-position: -7px -189px;
 }
-
 .chat-wraper {
   width: 100.1%;
   height: 94%;
   overflow-y: scroll;
 }
-
 .chat {
   width: 100%;
   height: 62px;
@@ -248,9 +253,10 @@ main {
   position: absolute;
   top: 52%;
   left: 53%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
 }
-
 .saved-message {
   background-image: url(../image/save.png);
 }
@@ -267,7 +273,6 @@ main {
   height: 50%;
   position: relative;
 }
-
 .author {
   text-transform: capitalize;
   position: absolute;
@@ -276,7 +281,6 @@ main {
   font: 13px/18px Tahoma, sans-serif, Arial, Helvetica;
   font-weight: bold;
 }
-
 .time {
   font: 12px/20px Tahoma, sans-serif, Arial, Helvetica;
   position: absolute;
@@ -303,7 +307,6 @@ main {
   position: absolute;
   right: 8%;
 }
-
 .pin {
   top: 25%;
   width: 14px;
@@ -324,7 +327,6 @@ main {
   font-weight: bold;
   font: 11px/20px Tahoma, sans-serif, Arial, Helvetica;
 }
-
 .you-message {
   top: 30%;
   width: 9px;
@@ -332,7 +334,6 @@ main {
   background-color: #c1d6e5;
   border-radius: 50%;
 }
-
 .person,
 .tut-by,
 .disgusting,
@@ -352,11 +353,9 @@ main {
 .person {
   background-position: -1px -574px;
 }
-
 .tut-by {
   background-position: 0px 4px;
 }
-
 .disgusting {
   background-position: 0px -42px;
 }
@@ -395,7 +394,6 @@ main {
 .hf {
   background-position: 0px -474px;
 }
-
 .conversation-body {
   width: 100%;
   height: calc(90vh - 140px);
@@ -434,6 +432,8 @@ main {
   position: absolute;
   top: 64%;
   left: 50%;
+  -webkit-transform: translate(-50%, -40%);
+  -ms-transform: translate(-50%, -40%);
   transform: translate(-50%, -40%);
   width: 220px;
   cursor: pointer;
@@ -442,7 +442,6 @@ main {
 .name-group {
   font-weight: bold;
 }
-
 .messages-group,
 .messages-group-with-link {
   width: 100%;
@@ -462,7 +461,6 @@ main {
 .messages-group-with-link .author-foto img {
   top: 24%;
 }
-
 .messages-group-with-link .author-data {
   height: 23%;
 }
@@ -486,7 +484,6 @@ main {
   border-left: 1px solid rgb(128, 171, 210);
   font: 13px/19px Tahoma, sans-serif, Arial, Helvetica;
 }
-
 .link-first-part {
   color: rgb(168, 168, 168);
 }
@@ -516,6 +513,8 @@ main {
   position: absolute;
   top: 50%;
   left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
 }
 
@@ -535,6 +534,8 @@ main {
   position: absolute;
   top: 50%;
   left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   background-image: url(../image/IconsetW.png);
   background-position: -2px -475px;
@@ -574,7 +575,6 @@ main {
   text-decoration: underline;
   cursor: pointer;
 }
-
 .data-group {
   color: #b7b7b7;
   position: absolute;
@@ -592,7 +592,6 @@ main {
   position: absolute;
   bottom: 0px;
 }
-
 .main-elements {
   height: 100%;
   width: 80%;
@@ -626,6 +625,10 @@ main {
   height: 50%;
 }
 
+.data-group:hover {
+  text-decoration: underline;
+}
+
 .user-foto,
 .group-cover {
   width: 15%;
@@ -645,6 +648,8 @@ main {
   position: absolute;
   top: 60%;
   left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   cursor: pointer;
 }
@@ -653,14 +658,12 @@ main {
   float: right;
   position: relative;
 }
-
 .messages-panel {
   width: 70%;
   height: 100%;
   display: inline-block;
   position: relative;
 }
-
 textarea {
   position: absolute;
   bottom: 0px;
@@ -674,7 +677,6 @@ textarea {
   padding-left: 5px;
   overflow: hidden;
 }
-
 .emoji-btn {
   position: absolute;
   top: 20%;
@@ -685,11 +687,9 @@ textarea {
   background-position: 1px 0px;
   cursor: pointer;
 }
-
 .emoji-btn:hover {
   background-position: 1px -32px;
 }
-
 .decoration {
   width: 97%;
   height: 2px;
@@ -716,9 +716,10 @@ textarea:focus + .decoration {
   height: 50%;
   position: absolute;
   top: 40%;
+  -webkit-transform: translate(0, -50%);
+  -ms-transform: translate(0, -50%);
   transform: translate(0, -50%);
 }
-
 .send {
   float: right;
   font: 13px/20px Tahoma, sans-serif, Arial, Helvetica;
@@ -728,11 +729,9 @@ textarea:focus + .decoration {
   cursor: pointer;
   padding-top: 8px;
 }
-
 .send:hover {
   color: #3b8ac2;
 }
-
 .send-type {
   float: left;
   width: 30%;
@@ -773,7 +772,6 @@ textarea:focus + .decoration {
   background-position: -6px -277px;
   opacity: 0.7;
 }
-
 .emoji-panel {
   width: 55%;
   height: 100%;
@@ -781,7 +779,6 @@ textarea:focus + .decoration {
   position: relative;
   cursor: default;
 }
-
 .emoji-panel span {
   display: inline-block;
   margin-top: 8px;
@@ -806,7 +803,6 @@ textarea:focus + .decoration {
   background-image: url(../image/emojisprite_0.png);
   background-size: 540px 140px;
 }
-
 .first {
   background-position: -300px -0px;
 }
@@ -834,7 +830,6 @@ textarea:focus + .decoration {
 .seventh {
   background-position: -60px -0px;
 }
-
 @media screen and (max-width: 1010px) {
   header {
     width: 100vw;
