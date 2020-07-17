@@ -545,6 +545,7 @@ main {
 .conversation-body .main-elements {
   width: 90%;
   overflow-y: scroll;
+  cursor: pointer;
 }
 .conversation-body .main-elements,
 .chat-wraper {
@@ -561,7 +562,9 @@ main {
   width: 100%;
   height: 50%;
 }
-
+.data-group:hover{
+  text-decoration: underline;
+}
 .user-foto,
 .group-cover {
   width: 15%;
