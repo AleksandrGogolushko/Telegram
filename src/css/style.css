@@ -200,21 +200,41 @@ main {
 .serch-input:focus {
   outline: none;
 }
+.serch-input:not(:valid) + button {
+  opacity: 0;
+}
 .serch-input::-webkit-search-cancel-button {
   -webkit-appearance: none;
   position: relative;
   height: 20px;
   width: 20px;
-  background-image: url(../image/IconsetW.png);
-  background-position: -7px -189px;
 }
 .serch-input::-ms-clear {
   -webkit-appearance: none;
   position: relative;
   height: 20px;
   width: 20px;
+}
+button {
+  width: 20px;
+  height: 20px;
+  border: none;
+  background-color: #f2f2f2;
+  position: absolute;
+  top: 20px;
+  left: 27%;
+  opacity: 1;
+}
+button:focus {
+  outline: none;
+}
+.reset {
   background-image: url(../image/IconsetW.png);
-  background-position: -7px -189px;
+  background-position: -12px -189px;
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  cursor: pointer;
 }
 .chat-wraper {
   width: 100.1%;
@@ -878,5 +898,8 @@ textarea:focus + .decoration {
     width: 62%;
     overflow-x: hidden;
     white-space: nowrap;
+  }
+  button {
+    left: 25.5%;
   }
 }
