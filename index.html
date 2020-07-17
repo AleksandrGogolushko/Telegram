@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./src/image/favicon.ico" />
+    <link rel="stylesheet" href="./src/css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap"
+      rel="stylesheet"
+    />
+    <title>Telegram Web</title>
+  </head>
+  <body>
+    <header>
+      <div class="left-side">
+        <div class="hamburger-btn">
+          <span class="line first"></span>
+          <span class="line"></span>
+          <span class="line last"></span>
+        </div>
+        <div class="logo">
+          <img src="./src/image/logo.svg" alt="Telegram" />
+        </div>
+      </div>
+      <div class="right-side">
+        <div class="name-section">
+          <p class="title-group">Work Chat</p>
+          <p class="count-members">18 members,</p>
+          <p class="members-online">6 online</p>
+        </div>
+        <div class="serch-wraper">
+          <div class="dot-btn">
+            <span class="line"></span>
+            <span class="line"></span>
+            <span class="line"></span>
+          </div>
+          <div class="serch">
+            <span class="icon-serch"></span>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="conversation">
+        <div class="conversation-body">
+          <div class="main-elements">
+            <div class="create-group">
+              <p>Wendsday, December 11, 2019</p>
+              <p>
+                <span class="user">Миша</span> created the group «<span
+                  class="name-group"
+                  >Work Chat</span
+                >»
+              </p>
+              <p><span class="user">Миша</span> changed group photo</p>
+              <img src="/src/image/group.jpg" alt="group cover" />
+            </div>
+            <div class="messages-group">
+              <div class="check-messages">
+                <span class="check"></span>
+              </div>
+              <div class="author-foto">
+                <img src="/src/image/user1.png" alt="first user" />
+              </div>
+              <div class="messages-wraper">
+                <div class="author-data">
+                  <p class="author-group">Миша</p>
+                  <p class="data-group">10:46:51 AM</p>
+                </div>
+                <div class="messages-text">
+                  <p class="text">
+                    Всем привет, скидываю материалы обязательные к прочтению.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="messages-group-with-link">
+              <div class="check-messages">
+                <span class="check"></span>
+              </div>
+              <div class="author-foto">
+                <img src="/src/image/user1.png" alt="first user" />
+              </div>
+              <div class="messages-wraper">
+                <div class="author-data">
+                  <p class="author-group">Миша</p>
+                  <p class="data-group">10:47:24 AM</p>
+                </div>
+                <div class="messages-text">
+                  <a>https://learngitbranching.js.org/</a>
+                  <div class="link">
+                    <p class="link-first-part">learngitbranching.js.org</p>
+                    <p class="link-second-part">Learn Git Branching</p>
+                    <p class="link-disctription">
+                      An interactivve Git visualization tool to educate and
+                      challenge!
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="messages-group">
+              <div class="check-messages">
+                <span class="check"></span>
+              </div>
+              <div class="author-foto">
+                <img src="/src/image/user.png" alt="srcond user" />
+              </div>
+              <div class="messages-wraper">
+                <div class="author-data">
+                  <p class="author-group">Александр</p>
+                  <p class="data-group">10:47:59 AM</p>
+                </div>
+                <div class="messages-text">
+                  <p class="text">Спасибо,гляну потом.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="user-panel">
+          <div class="main-elements">
+            <div class="main-panel">
+              <div class="user-foto">
+                <img src="/src/image/user.png" alt="user" />
+              </div>
+              <div class="messages-panel">
+                <textarea
+                  name="messages"
+                  id="messages"
+                  placeholder="Write a message..."
+                ></textarea>
+                <span class="decoration"></span>
+                <span class="emoji-btn"></span>
+              </div>
+              <div class="group-cover">
+                <img src="/src/image/group.jpg" alt="group cover" />
+              </div>
+            </div>
+            <div class="emoji-send">
+              <div class="container">
+                <div class="elemets-wraper">
+                  <div class="send-type">
+                    <span class="file"></span>
+                    <span class="media"></span>
+                    <span class="record"></span>
+                  </div>
+                  <div class="emoji-panel">
+                    <span class="emoji first"></span>
+                    <span class="emoji second"></span>
+                    <span class="emoji third"></span>
+                    <span class="emoji fourth"></span>
+                    <span class="emoji fifth"></span>
+                    <span class="emoji sixth"></span>
+                    <span class="emoji seventh"></span>
+                  </div>
+                  <span class="send">send</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="all-chat">
+        <div class="serch-panel">
+          <input type="search" placeholder="Search" class="serch-input" />
+        </div>
+        <div class="chat-wraper">
+          <div class="chat">
+            <div class="cover">
+              <div class="icon-chat saved-message"></div>
+            </div>
+            <div class="chat-discription">
+              <div class="name-time">
+                <p class="author">saved messages</p>
+                <p class="time">9:24 AM</p>
+              </div>
+              <div class="message-pin">
+                <p class="messages">Самые ожидаемые фильм...</p>
+                <span class="pin"></span>
+              </div>
+            </div>
+          </div>
+          <div class="chat">
+            <div class="cover">
+              <div class="icon-chat person"></div>
+            </div>
+            <div class="chat-discription">
+              <div class="name-time">
+                <p class="author">Миша</p>
+                <p class="time">Tue</p>
+              </div>
+              <div class="message-pin">
+                <p class="messages"><span>You:</span> Я сейчас занят, потом.</p>
+                <span class="pin"></span>
+              </div>
+            </div>
+          </div>
+          <div class="chat">
+            <div class="cover">
+              <div class="icon-chat tyt-by"></div>
+            </div>
+            <div class="chat-discription">
+              <div class="name-time">
+                <p class="author">TUT.BY новости</p>
+                <p class="time">6/5/20</p>
+              </div>
+              <div class="message-pin">
+                <p class="messages"><span>Photo</span></p>
+                <span class="pin"></span>
+              </div>
+            </div>
+          </div>
+          <div class="chat">
+            <div class="cover">
+              <div class="icon-chat disgusting"></div>
+            </div>
+            <div class="chat-discription">
+              <div class="name-time">
+                <p class="author">Disgusting Men</p>
+                <p class="time">Mon</p>
+              </div>
+              <div class="message-pin">
+                <p class="messages">Дрю Струзан — американски...</p>
+                <span class="pin"></span>
+              </div>
+            </div>
+          </div>
+          <div class="chat">
+            <div class="cover">
+              <div class="icon-chat club"></div>
+            </div>
+            <div class="chat-discription">
+              <div class="name-time">
+                <p class="author">КИНО CLUB</p>
+                <p class="time">Mon</p>
+              </div>
+              <div class="message-pin">
+                <p class="messages">Ночной портье / The Nigh...</p>
+              </div>
+            </div>
+          </div>
+          <div class="chat">
+            <div class="cover">
+              <div class="icon-chat goToB"></div>
+            </div>
+            <div class="chat-discription">
+              <div class="name-time">
+                <p class="author">Go to Belarus</p>
+                <p class="time">5:51 PM</p>
+              </div>
+              <div class="message-pin">
+                <p class="messages"><span>Photo</span></p>
+                <span class="unread">5</span>
+              </div>
+            </div>
+          </div>
+          <div class="chat select">
+            <div class="cover">
+              <div class="icon-chat work"></div>
+            </div>
+            <div class="chat-discription">
+              <div class="name-time">
+                <p class="author">Work chat</p>
+                <p class="time">Sun</p>
+              </div>
+              <div class="message-pin">
+                <p class="messages">You: Спасибо,гляну потом</p>
+                <span class="you-message"></span>
+              </div>
+            </div>
+          </div>
+          <div class="chat">
+            <div class="cover">
+              <div class="icon-chat onliner"></div>
+            </div>
+            <div class="chat-discription">
+              <div class="name-time">
+                <p class="author">Onliner</p>
+                <p class="time">5:45 PM</p>
+              </div>
+              <div class="message-pin">
+                <p class="messages">Spotify пришел в Беларусь и...</p>
+                <span class="unread">1</span>
+              </div>
+            </div>
+          </div>
+          <div class="chat">
+            <div class="cover">
+              <div class="icon-chat osf"></div>
+            </div>
+            <div class="chat-discription">
+              <div class="name-time">
+                <p class="author">Open Source Furure</p>
+                <p class="time">5:41 PM</p>
+              </div>
+              <div class="message-pin">
+                <p class="messages"><span>GIF</span></p>
+              </div>
+            </div>
+          </div>
+          <div class="chat">
+            <div class="cover">
+              <div class="icon-chat kimovil"></div>
+            </div>
+            <div class="chat-discription">
+              <div class="name-time">
+                <p class="author">Kimovil Chollos [ES]</p>
+                <p class="time">5:40 PM</p>
+              </div>
+              <div class="message-pin">
+                <p class="messages">SmartTV Samsung 55RU546...</p>
+                <span class="unread">20</span>
+              </div>
+            </div>
+          </div>
+          <div class="chat">
+            <div class="cover">
+              <div class="icon-chat food"></div>
+            </div>
+            <div class="chat-discription">
+              <div class="name-time">
+                <p class="author">Real Food</p>
+                <p class="time">5:29 PM</p>
+              </div>
+              <div class="message-pin">
+                <p class="messages"><span>Video</span></p>
+              </div>
+            </div>
+          </div>
+          <div class="chat">
+            <div class="cover">
+              <div class="icon-chat film-review"></div>
+            </div>
+            <div class="chat-discription">
+              <div class="name-time">
+                <p class="author">4 Word Film Review</p>
+                <p class="time">5:26 PM</p>
+              </div>
+              <div class="message-pin">
+                <p class="messages"><span>Photo</span></p>
+              </div>
+            </div>
+          </div>
+          <div class="chat">
+            <div class="cover">
+              <div class="icon-chat hf"></div>
+            </div>
+            <div class="chat-discription">
+              <div class="name-time">
+                <p class="author">High Five</p>
+                <p class="time">2:00 PM</p>
+              </div>
+              <div class="message-pin">
+                <p class="messages">ESPN решили не продлеват...</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
