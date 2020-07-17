@@ -493,7 +493,7 @@ main {
 }
 .messages-group:hover .check,
 .messages-group-with-link:hover .check {
-  opacity: 1;
+  opacity: 0.5;
 }
 .author-data,
 .messages-text {
