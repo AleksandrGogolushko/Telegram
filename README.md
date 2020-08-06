@@ -1,4 +1,4 @@
-# Task 2 - HTML - CSS
+# Telegram 
 --------------------------------------
 Telegram main page
 
